@@ -1,5 +1,4 @@
 // Data for all 5 cats
-
 var cats = {};
   cats[0] = {
       name: "Fluffy",
@@ -11,24 +10,6 @@ var cats = {};
   cats[1] = {
       name: "Misty",
       imageURL: "cat2.jpg",
-      click: 0
-  }; 
-
- cats[2] = {
-      name: "Snowball",
-      imageURL: "cat3.jpg",
-      click: 0
-  }; 
-
- cats[3] = {
-      name: "Spots",
-      imageURL: "cat4.jpg",
-      click: 0
-  }; 
-
-   cats[4] = {
-      name: "Cuddles",
-      imageURL: "cat5.jpg",
       click: 0
   }; 
 
@@ -48,7 +29,7 @@ var showCats = function(obj) {
 
 showCats(cats);
 
- /* $('.1').click(function() {
+  $('.1').click(function() {
     cats[0].click++;
     $('.count1').text(cats[0].click);
   }); 
@@ -57,4 +38,4 @@ showCats(cats);
     cats[1].click++;
     $('.count2').text(cats[1].click);
   }); 
-*/
+
